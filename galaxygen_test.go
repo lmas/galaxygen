@@ -30,10 +30,10 @@ func TestGenerateGalaxy(t *testing.T) {
 	for _, test := range starTable {
 		star := galaxy[test.index]
 		if star.X != test.x {
-			t.Errorf("Expected X: %d, Got: %d\n", star.X, test.x)
+			t.Errorf("Expected X: %d, Got: %d\n", test.x, star.X)
 		}
 		if star.Y != test.y {
-			t.Errorf("Expected Y: %d, Got: %d\n", star.Y, test.y)
+			t.Errorf("Expected Y: %d, Got: %d\n", test.y, star.Y)
 		}
 	}
 }
