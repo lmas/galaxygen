@@ -39,6 +39,7 @@ Usage
     // of 100 points.
     starmap := galaxygen.New(5000, 5, 100.0)
 
+See `examples/` for more usage examples.
 
 License
 --------------------------------------------------------------------------------
